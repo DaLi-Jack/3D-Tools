@@ -61,5 +61,5 @@ np.save(file=f, arr=voxels)
 f.close()
 
 t2  =time.time()
-print('running time {}s'.format(t2 - t1))
+print('mesh-to-sdf running time {}s'.format(t2 - t1))
 
